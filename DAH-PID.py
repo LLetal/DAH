@@ -6,9 +6,9 @@ from simple_pid import PID
 from pyvisa.resources import MessageBasedResource
 import time
 flux_client = influxdb_client.InfluxDBClient(
-    bucket = "Detector",
-    org = "Me",
-    token = "r84rvXMT_hF1TpSGNaO3Sk_yhzBwYWJJP22NzYk_hU-r1djCtdd6oEtc3z4hPDBXdTkmSuubk2Frg-7DF_oQkA==",
+    bucket = <bucket-name>,
+    org = <bucket-name>,
+    token = <insert token>,
     url = "http://localhost:8086",
 )
 
@@ -18,8 +18,7 @@ rm = pyvisa.ResourceManager()
 
 power_supply = rm.open_resource('USB0::0x2A8D::0x3002::MY59001350::INSTR', resource_pyclass=MessageBasedResource)
 pressure_control = rm.open_resource('ASRL7::INSTR', resource_pyclass=MessageBasedResource)
-pid = PID(0.0000125, 0.0005, 0.00125) #PID(0.000000000125, 0.0005, 0.000125) takh;e to ++- fungovalo
-
+pid = PID(0.0000125, 0.00003, 0.000125) 
 
 pid.setpoint =  100
 

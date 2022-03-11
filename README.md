@@ -12,5 +12,6 @@ The code is 100% python based and for simplicity I have used Inlfuxdb for data l
 # Prerequisites
 To run this simple script you essentially need the exact two devices I have used for it since any other device could simply work differently and simply wouldn‘t recognize the commands.
 
-I am soon going to paste here the code itself, but before I have to make sure it 100% works with my detector. If you would like to know more about my project feel free to leave a comment in issues!
+# TODO
+Implement grafana, make pip library.
 

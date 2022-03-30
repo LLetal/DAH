@@ -2,8 +2,9 @@
 This is the source code of software for my student project about the detection of atomic hydrogen using thermal detectors. In a nutshell, these devices measure the heat released by recombination of atomic hydrogen and determine consequences from it. Its also a proven fact, that the recombination coefficient of atomic hydrogen, and so the sensitivity of thermal detectors is closely related to the temperature of recombination area, so it is simply better to keep recombination area on some higher temperature. Problem is, that with recombination the detector without stabilization would raise its temperature and so would raise the recombination coefficient, and the experiment would simply become irrelevant. Except for this usage I have also found out, that it would be quite interesting to watch all the metrics of the experiment in real-time, so I have also included it in this little project. 
 \
 ![Aparature]https://raw.githubusercontent.com/LLetal/DAH/main/aparature.png
-# How the software works
 \
+# How the software works
+
 The work of the software is briefly illustrated by the following picture:
 \
 ![Simple scheme](https://github.com/LLetal/DAH/blob/main/detector-scheme.svg)

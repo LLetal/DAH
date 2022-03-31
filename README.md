@@ -4,7 +4,7 @@ This is the source code of software for my student project about the detection o
 ![Aparature](https://raw.githubusercontent.com/LLetal/DAH/main/aparature.png)
 **Figure 1** Aparature\
 ![H atom source](https://github.com/LLetal/DAH/blob/main/20220124_154920.jpg)
-**Figure 3** H atom source\
+**Figure 2** H atom source\
 ![Detector of H](https://github.com/LLetal/DAH/blob/main/2022-01-20%2009.34.26.jpg)
 **Figure 3** Detector of H\
 ![Detector of H inside of aparature](https://github.com/LLetal/DAH/blob/main/2022-01-20%2011.50.04.jpg)
@@ -18,7 +18,9 @@ Atomic hydrogen is dominant element inside of space nebulas. Logically because o
 The work of the software is briefly illustrated by the following picture:
 \
 ![Simple scheme](https://github.com/LLetal/DAH/blob/main/detector-scheme.svg)
+\
 **Figure 5** PID Scheme
+
 The PID process is, as visible in the picture, made through a thermometer, which is directly connected to the detector. The computer gets the information about actual temperature from the thermometer and then using PID calculates what output should the source should have and sends it directly to it. Due to this temperature of the detector changes and so does the input of the thermometer. This process repeats until the temperature is stabilized and so the experiment is ready. The setup also monitors the pressure inside a vacuum chamber. At the same as this is happening computer is also sending the data to an external influxdb server. Its also worth of mentioning, that all communication, except the one with influxdb, is established via serial port.
 
 # About Code 

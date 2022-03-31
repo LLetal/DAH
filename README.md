@@ -2,6 +2,12 @@
 This is the source code of software for my student project about the detection of atomic hydrogen using thermal detectors. In a nutshell, these devices measure the heat released by recombination of atomic hydrogen and determine consequences from it. Its also a proven fact, that the recombination coefficient of atomic hydrogen, and so the sensitivity of thermal detectors is closely related to the temperature of recombination area, so it is simply better to keep recombination area on some higher temperature. Problem is, that with recombination the detector without stabilization would raise its temperature and so would raise the recombination coefficient, and the experiment would simply become irrelevant. Except for this usage I have also found out, that it would be quite interesting to watch all the metrics of the experiment in real-time, so I have also included it in this little project. 
 \
 ![Aparature](https://raw.githubusercontent.com/LLetal/DAH/main/aparature.png)
+\
+![H atom source](https://github.com/LLetal/DAH/blob/main/20220124_154920.jpg)
+\
+![Detector of H](https://github.com/LLetal/DAH/blob/main/2022-01-20%2009.34.26.jpg)
+\
+![Detector of H inside of aparature](https://github.com/LLetal/DAH/blob/main/2022-01-20%2011.50.04.jpg)
 
 # Motivation for the work 
 Atomic hydrogen is dominant element inside of space nebulas. Logically because of this, the research of atomic hydrogen is essential for further understanding of initial formation of space bodies, such as planets, stars or asteroids. Regarding this, studying of atomic hydrogen also helps us with better understanding of molecular synthesis and even in determination of age of space bodies. Problem is, that atomic hydrogen mostly dont exist on Earth, so we need to acquire it from dissociating of molecular hydrogen using various methods. Problem is, that we cant quite accuratelly theoretically determine how many atoms are produced from the source. Relating to this fact, in order to simulate the conditions inside space nebula recquired for exact experiment we need to use experimental methods of calibration. Two most common methods are chemical calibration and calibration using detector of atomic hydrogen. In my project I covered the second method, because it compared to chemical calibration allows realtime monitoring of atomic hydrogen flux and so the easier calibration of atomic hydrogen source.
